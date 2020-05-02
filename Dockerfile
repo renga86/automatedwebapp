@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.03
 MAINTAINER SLAT Team <slatteam@docker.com>
 RUN apt-get update -qq
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-all python-pip
